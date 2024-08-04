@@ -1,0 +1,15 @@
+button {
+  padding: 12px 24px;
+  color: white;
+  background-color: #0b0b0b;
+  border-radius: 8px;
+  border: none;
+
+  &:hover {
+    background-color: black;
+  }
+
+  &:active {
+    transform: scale(0.9);
+  }
+}
