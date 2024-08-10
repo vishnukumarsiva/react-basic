@@ -26,7 +26,12 @@ const Home = () => {
 
   return (
     <div>
-      <input type="number" onChange={handleValueOneChange} value={valueOne} />
+      <input
+        type="number"
+        name="valueOne"
+        onChange={handleValueOneChange}
+        value={valueOne}
+      />
       <input type="number" onChange={handleValueTwoChange} value={valueTwo} />
       <Button buttonText="Add" onClick={() => handleButtonClick("add")} />
       <Button buttonText="sub" onClick={() => handleButtonClick("sub")} />
